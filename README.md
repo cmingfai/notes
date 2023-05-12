@@ -54,7 +54,11 @@ virtualenv venv
 source ./venv/bin/activate
 pip install python-dotenv paramiko
 pip freeze > requirements.txt
+```
 
+```console
+cd project_directory
+source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
