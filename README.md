@@ -4,6 +4,7 @@
 
 ### Maven pom.xml
 
+```xml
 <dependency>
     <groupId>io.micrometer</groupId>
     <artifactId>micrometer-observation</artifactId>
@@ -24,6 +25,7 @@
     <groupId>io.github.openfeign</groupId>
     <artifactId>feign-micrometer</artifactId>
 </dependency>
+```
 
 ### application.yml
 
