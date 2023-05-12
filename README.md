@@ -79,3 +79,9 @@ pip install -r requirements.txt
 - **Hash**: distribution based on a key (e.g. IP address or Request URL)
 - **IP Hash**: distribution based on the IP address of the client
 - **Random with Two Choices**: randomly pick 2 servers and select the one by least connections
+
+## External Resources
+
+### Spring Boot
+[Online Spring Boot Banner Generator (with FIGlet Fonts)](Online Spring Boot Banner Generator (with FIGlet Fonts))
+
