@@ -45,6 +45,18 @@ management:
 ```console
 docker run -d -p 9411:9411 openzipkin/zipkin
 ```
+## Python Virtual Environment Setup
+
+```console
+pip install virtualenv
+cd project_directory
+virtualenv venv
+source ./venv/bin/activate
+pip install python-dotenv paramiko
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+```
 
 ## Load Balancer Algorithms
 
