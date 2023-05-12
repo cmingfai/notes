@@ -1,8 +1,10 @@
 # Notes
 
-## Spring Boot 3 Distributed Tracing With Micrometer and Zipkin Configuration 
+## Java 
 
-### Maven pom.xml
+### Spring Boot 3 Distributed Tracing With Micrometer and Zipkin Configuration 
+
+#### Maven pom.xml
 
 ```xml
 <dependency>
@@ -27,7 +29,7 @@
 </dependency>
 ```
 
-### application.yml
+#### application.yml
 
 ```yaml
 logging:
@@ -40,14 +42,17 @@ management:
       probability: 1.0
 ```
 
-### Zipkin
+#### Zipkin
 
 ```console
 docker run -d -p 9411:9411 openzipkin/zipkin
 ```
-## Python Virtual Environment Setup
 
-### Install virtual environment and dependencies
+## Python
+
+### Python Virtual Environment Setup
+
+#### Install virtual environment and dependencies
 
 ```console
 pip install virtualenv
@@ -57,15 +62,16 @@ source ./venv/bin/activate
 pip install python-dotenv paramiko
 pip freeze > requirements.txt
 ```
-### Re-install dependencies for virtual environment
+#### Re-install dependencies for virtual environment
 
 ```console
 cd project_directory
 source ./venv/bin/activate
 pip install -r requirements.txt
 ```
+## Glossories
 
-## Load Balancer Algorithms
+### Load Balancer Algorithms
 
 - **Round Robin**: distributed across group of servers sequentially
 - **Least Connections**: sent to server with fewest active connections
