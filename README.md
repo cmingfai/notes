@@ -1,6 +1,6 @@
 # Notes
 
-## Spring Boot 3 Distributed Tracing Configuration With Micrometer
+## Spring Boot 3 Distributed Tracing With Micrometer and Zipkin Configuration 
 
 ### Maven pom.xml
 
