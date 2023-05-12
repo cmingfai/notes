@@ -83,5 +83,5 @@ pip install -r requirements.txt
 ## External Resources
 
 ### Spring Boot
-[Online Spring Boot Banner Generator (with FIGlet Fonts)](Online Spring Boot Banner Generator (with FIGlet Fonts))
+[Online Spring Boot Banner Generator (with FIGlet Fonts)](https://devops.datenkollektiv.de/banner.txt/index.html)
 
