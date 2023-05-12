@@ -29,6 +29,7 @@
 
 ### application.yml
 
+```yaml
 logging:
   pattern:
     level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
@@ -37,6 +38,7 @@ management:
   tracing:
     sampling:
       probability: 1.0
+```
 
 ### Zipkin
 
