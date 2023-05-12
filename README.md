@@ -38,6 +38,12 @@ management:
     sampling:
       probability: 1.0
 
+### Zipkin
+
+```console
+docker run -d -p 9411:9411 openzipkin/zipkin
+```
+
 ## Load Balancer Algorithms
 
 - **Round Robin**: distributed across group of servers sequentially
