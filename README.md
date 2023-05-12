@@ -1,4 +1,4 @@
-# notes
+# Notes
 
 
 ## Load Balancer Algorithms
