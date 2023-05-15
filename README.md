@@ -91,6 +91,7 @@ pip install -r requirements.txt
     - Watch loop
     - Each controller watches API changes and keep desired state=current state
   - Cloud Controller Manager
+    - interact with underlying cloude provider
 
 ## External Resources
 
