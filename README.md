@@ -82,6 +82,14 @@ pip install -r requirements.txt
 
 ### Kubernetes (K8S)
 
+#### Master Node 
+- Control Plane
+  - API Server
+  - Scheduler
+  - Cluster Store
+  - Controller Manager
+  - Cloud Controller Manager
+
 ## External Resources
 
 ### Spring Boot
