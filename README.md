@@ -87,7 +87,9 @@ pip install -r requirements.txt
   - API Server: all communication go through
   - Scheduler: assign pods to nodes
   - Cluster Store: etcd - configuration and state of cluster
-  - Controller Manager: watch loop
+  - Controller Manager
+    - Watch loop for Controllers
+    - watch API changes and keep desired state=current state
   - Cloud Controller Manager
 
 ## External Resources
