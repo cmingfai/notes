@@ -80,6 +80,8 @@ pip install -r requirements.txt
 - **IP Hash**: distribution based on the IP address of the client
 - **Random with Two Choices**: randomly pick 2 servers and select the one by least connections
 
+### Kubernetes (K8S)
+
 ## External Resources
 
 ### Spring Boot
