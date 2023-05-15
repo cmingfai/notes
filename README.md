@@ -84,10 +84,10 @@ pip install -r requirements.txt
 
 #### Master Node 
 - Control Plane
-  - API Server
-  - Scheduler
-  - Cluster Store
-  - Controller Manager
+  - API Server: all communication go through
+  - Scheduler: assign pods to nodes
+  - Cluster Store: etcd - configuration and state of cluster
+  - Controller Manager: watch loop
   - Cloud Controller Manager
 
 ## External Resources
