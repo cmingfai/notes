@@ -48,6 +48,14 @@ management:
 docker run -d -p 9411:9411 openzipkin/zipkin
 ```
 
+#### Kafka
+
+```console
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+bin/kafka-console-consumer.sh --topic amigoscode --from-beginning --bootstrap-server localhost:9092
+```
+
 ## Python
 
 ### Python Virtual Environment Setup
