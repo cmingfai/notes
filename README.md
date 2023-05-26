@@ -56,6 +56,14 @@ bin/kafka-server-start.sh config/server.properties
 bin/kafka-console-consumer.sh --topic amigoscode --from-beginning --bootstrap-server localhost:9092
 ```
 
+#### AWS CLI
+
+```console
+aws secretsmanager get-secret-value --secret-id test/full-stack/postgres
+
+docker run --rm -it postgres psql -U amigoscode -h host -d ebdb
+```
+
 ## Python
 
 ### Python Virtual Environment Setup
